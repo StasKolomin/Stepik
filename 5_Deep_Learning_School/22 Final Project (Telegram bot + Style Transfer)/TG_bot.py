@@ -49,7 +49,7 @@ def get_photo_messages(message):
         bot.reply_to(message, output)
 
         # processing
-        output = style_transfer()
+        output = style_transfer( )
 
         imsave(output, "{0}/{1}".format(result_storage_path, 'output.png'))
         
@@ -58,6 +58,7 @@ def get_photo_messages(message):
         bot.send_photo(message.chat.id, open("{0}/{1}".format(result_storage_path, 'output.png'), 'rb'), 'Стилизованное изображение')
 
         state = 'wait_content'
+
    
     
 

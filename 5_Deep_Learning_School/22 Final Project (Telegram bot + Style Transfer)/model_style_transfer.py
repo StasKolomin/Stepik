@@ -23,9 +23,7 @@ def image_loader(image_name):
     image = loader(image).unsqueeze(0)
     return image.to(device, torch.float)
 
-
-style_img = image_loader("tmp/style.jpg")# as well as here
-content_img = image_loader("tmp/content.jpg")#измените путь на тот который у вас.
+    
 
 class ContentLoss(nn.Module):
     def __init__(self, target,):
@@ -209,15 +207,20 @@ def run_style_transfer(cnn, normalization_mean, normalization_std,
     return input_img
 
 
-input_img = content_img.clone()
+
 # if you want to use white noise instead uncomment the below line:
 # input_img = torch.randn(content_img.data.size(), device=device)
 
-output = run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
-                            content_img, style_img, input_img)
+# output = run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
+#                             content_img, style_img, input_img)
 def style_transfer():
-    return run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
-                              content_img, style_img, input_img)
+    if os.path.exists('tmp/style.jpg') and os.path.exists('tmp/content.jpg'):
+        style_img = image_loader("tmp/style.jpg")# as well as here
+        content_img = image_loader("tmp/content.jpg")#измените путь на тот который у вас.
+        input_img = content_img.clone()
+        return run_style_transfer(cnn, cnn_normalization_mean, cnn_normalization_std,
+                                   content_img, style_img, input_img)
+
 
 
 def imsave(tensor, title='tmp/output.png'):
