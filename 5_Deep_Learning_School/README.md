@@ -23,26 +23,26 @@
 Чат в TG: @dls_spring2021_advanced
 
 ## Программа курса
-1. Организационная информация
-2. Введение в искусственный интеллект
-3. Основы машинного обучения
-4. Домашнее задание. Основы машинного обучения
-5. Линейные модели
-6. Домашнее задание. Линейные модели и методы оптимизации
-7. Композиции алгоритмов и выбор модели
-8. Домашнее задание. Решение ML-задачи и Kaggle
-9. Введение в нейронные сети
-10. Сверточные нейросети
-11. Домашнее задание. Сверточные и полносвязные нейросети
-12. Продвинутое обучение нейросетей
-13. Классификация изображений
-14. Домашнее задание. Классификация изображений
-15. Семантическая сегментация
-16. Домашнее задание. Сегментация изображений
-17. Детекция объектов на изображениях
-18. Применение моделей компьютерного зрения
-19. Генеративные модели и автоэнкодеры
-20. Домашнее задание. Автоэнкодеры
-21. Генеративно-состязательные модели
-22. Домашнее задание. Генеративно-состязательные модели
-23. Итоговый проект
+1. [Организационная информация](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/01%20About)
+2. [Введение в искусственный интеллект](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/02%20Intro%20in%20AI)
+3. [Основы машинного обучения](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/03%20Basics%20ML)
+4. [Домашнее задание. Основы машинного обучения](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/04%20HW%20Basics%20ML)
+5. [Линейные модели](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/05%20Linear%20models)
+6. [Домашнее задание. Линейные модели и методы оптимизации](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/06%20HW%20Linear%20models)
+7. [Композиции алгоритмов и выбор модели](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/07%20Decision%20tree%20and%20compositions)
+8. [Домашнее задание. Решение ML-задачи и Kaggle](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/08%20HW%20Kaggle)
+9. [Введение в нейронные сети](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/09%20Intro%20NN)
+10. [Сверточные нейросети](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/10%20CNN)
+11. [Домашнее задание. Сверточные и полносвязные нейросети](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/11%20HW%20CNN)
+12. [Продвинутое обучение нейросетей](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/12%20Advanced%20learning%20NN)
+13. [Классификация изображений](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/13%20Image%20Classification)
+14. [Домашнее задание. Классификация изображений](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/14%20HW%20Image%20Classification)
+15. [Семантическая сегментация](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/15%20Semantic%20Segmentation)
+16. [Домашнее задание. Сегментация изображений](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/16%20HW%20Semantic%20Segmentation)
+17. [Детекция объектов на изображениях](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/17%20Object%20Detection)
+18. [Применение моделей компьютерного зрения](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/18%20Application%20CV%20model)
+19. [Генеративные модели и автоэнкодеры](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/19%20AutoEncoders)
+20. [Домашнее задание. Автоэнкодеры](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/20%20HW%20AutoEncoders)
+21. [Генеративно-состязательные модели](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/21%20Generative%20Models)
+22. [Домашнее задание. Генеративно-состязательные модели](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/22%20HW%20Generative%20Models)
+23. [Итоговый проект](https://github.com/StasKolomin/Stepik/tree/master/5_Deep_Learning_School/23%20Final%20Project%20(Telegram%20bot%20%2B%20Style%20Transfer))
